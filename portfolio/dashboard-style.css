@@ -1,4 +1,82 @@
-body{
-    display: grid
+.greeting{
     
+}
+
+$bgColor: #42444E;
+$calcBgColor: gray;
+$calcBlackText: black;
+$calcWhiteText: white;
+$calcScreenColor: #bccd95;
+$calcBtnColor: #d3d3d3;
+$calcBtnColorOrange: #ff9933;
+$calcBlackBorder: black 2px solid;
+$calcGrayBorder: #d3d3d3 2px solid;
+$calcOrangeBorder: #ff9933 2px solid;
+
+body {
+  background-color: $bgColor;
+}
+
+.calculator {
+  height: 324px;
+  width: 257px;
+  background-color: $calcBgColor;
+  position: relative;
+  top: 80px;
+  left: 40%;
+  border-radius: 10px;
+}
+
+.screen {
+  position: relative;
+  left: 17px;
+  top: 20px;
+  width: 213px;
+  height: 40px;
+  color: $calcBlackText;
+  background-color: $calcScreenColor;
+  font-size: 21px;
+  padding: 5px;
+  text-align: right;
+}
+
+.buttons {
+  position: relative;
+  top: 25px;
+}
+
+.btn {
+  color: $calcBlackText;
+  background-color: $calcBtnColor;
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  margin-left: 17px;
+  cursor: pointer;
+  border-top: $calcGrayBorder;
+  border-bottom: $calcBlackBorder;
+  &:active {
+  border-top: $calcBlackBorder;
+  border-bottom: $calcGrayBorder;
+  }
+  &.orange {
+  color: $calcWhiteText;
+  font-weight: bold;
+  background-color: $calcBtnColorOrange;
+  border-top: $calcOrangeBorder;
+  border-bottom: $calcBlackBorder;
+    &:active {
+      border-top: $calcBlackBorder;
+      border-bottom: $calcOrangeBorder;
+    }
+  }
+}
+
+.btnLarge {
+  width: 100px;
+}
+
+p {
+  line-height: 10px;
 }
