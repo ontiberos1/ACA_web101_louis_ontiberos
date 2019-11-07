@@ -1,36 +1,39 @@
 .greeting{
-    font-size: 30px;
-    background-image: url()
+    font-size: 45px;
+    color: white;
 }
 
 body {
-  background-color: $bgColor;
+    background-image: url(https://3.bp.blogspot.com/-hEJx2IOpgOs/XBZybVzTRQI/AAAAAAAACNg/hRRQwuU7dUg08CjjBvj762nXx48V9ANWwCHMYCw/s1600/beautiful-scenery-desktop-backgrounds-daily-health.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1000px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 25% 50% 25%;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer footer footer";
+    
 }
 
-.calculator {
-  height: 324px;
-  width: 257px;
-  background-color: $calcBgColor;
-  position: relative;
-  top: 80px;
-  left: 40%;
-  border-radius: 10px;
+header{
+    grid-area: header;
 }
 
-.screen {
-  position: relative;
-  left: 17px;
-  top: 20px;
-  width: 213px;
-  height: 40px;
-  color: $calcBlackText;
-  background-color: $calcScreenColor;
-  font-size: 21px;
-  padding: 5px;
-  text-align: right;
+main{
+    grid-area: main;
 }
 
-.buttons {
-  position: relative;
-  top: 25px;
+footer{
+    grid-area: footer;
+}
+
+.clock{
+    height: 80px;
+    width: 150px;
+}
+
+.calculator{
+    height: 60px;
+    width: 50px;
 }
