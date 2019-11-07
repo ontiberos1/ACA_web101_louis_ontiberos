@@ -1,17 +1,7 @@
 .greeting{
-    
+    font-size: 30px;
+    background-image: url()
 }
-
-$bgColor: #42444E;
-$calcBgColor: gray;
-$calcBlackText: black;
-$calcWhiteText: white;
-$calcScreenColor: #bccd95;
-$calcBtnColor: #d3d3d3;
-$calcBtnColorOrange: #ff9933;
-$calcBlackBorder: black 2px solid;
-$calcGrayBorder: #d3d3d3 2px solid;
-$calcOrangeBorder: #ff9933 2px solid;
 
 body {
   background-color: $bgColor;
@@ -43,40 +33,4 @@ body {
 .buttons {
   position: relative;
   top: 25px;
-}
-
-.btn {
-  color: $calcBlackText;
-  background-color: $calcBtnColor;
-  width: 40px;
-  height: 30px;
-  border: none;
-  border-radius: 8px;
-  margin-left: 17px;
-  cursor: pointer;
-  border-top: $calcGrayBorder;
-  border-bottom: $calcBlackBorder;
-  &:active {
-  border-top: $calcBlackBorder;
-  border-bottom: $calcGrayBorder;
-  }
-  &.orange {
-  color: $calcWhiteText;
-  font-weight: bold;
-  background-color: $calcBtnColorOrange;
-  border-top: $calcOrangeBorder;
-  border-bottom: $calcBlackBorder;
-    &:active {
-      border-top: $calcBlackBorder;
-      border-bottom: $calcOrangeBorder;
-    }
-  }
-}
-
-.btnLarge {
-  width: 100px;
-}
-
-p {
-  line-height: 10px;
 }
