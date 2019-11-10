@@ -1,0 +1,42 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.image{
+    height: 450px;
+    width: 850px;
+}
+
+.image-css{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image-css .box{
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 35%;
+    text-align: center;
+}
+
+.box{
+    color: white;
+    font-size: 65px;
+}
+
+.container{
+    height: 324px;
+    width: 850px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgrey;
+    margin-left: 198px;
+}
+
+.socialMedia{
+    size: 10px;
+}
