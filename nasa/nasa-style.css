@@ -19,13 +19,14 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 35%;
+    top: 30%;
     text-align: center;
 }
 
 .box{
     color: white;
-    font-size: 65px;
+    font-size: 75px;
+    font-family: 'Anton', sans-serif;
 }
 
 .container{
@@ -38,5 +39,31 @@
 }
 
 .socialMedia{
-    size: 10px;
+    font-size: 14px;
+    line-height: .2cm;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.office{
+    font-size: 14px;
+    line-height: .2cm;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.contact{
+    font-size: 14px;
+    line-height: .1cm;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.title{
+    font-family: 'Prompt', sans-serif;
+}
+
+.button{
+    background-color: #4d4d4d;
+    color: white;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
 }
