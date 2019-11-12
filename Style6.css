@@ -65,6 +65,21 @@
    color: gold;
  }
 
+ .nasaimage{
+   width: 300px;
+   height: 150px;
+ }
+
+ .nasalink{
+   margin-left: 80px;
+   background-color: lightgrey;
+   border: 2px solid black;
+ }
+
+ .container{
+   display: grid;
+ }
+
 @media (max-width: 768px) {
    * {
      font-size: 15px;
