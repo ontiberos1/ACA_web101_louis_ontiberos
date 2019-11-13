@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    height: 150px;
+    position: relative;
+}
+
+.mainlogo{
+    background-color: white;
+    border: 1px solid black;
+    width: 340px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 40px;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.beardimg{
+    height: 100px;
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 90px;
+    width: 125px;
+    color: black;
+}
+
+.links:hover{
+    color:blue;
+}
