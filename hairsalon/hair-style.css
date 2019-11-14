@@ -6,6 +6,8 @@ header{
     background-color: black;
     height: 150px;
     position: relative;
+    box-shadow: 0 5px 20px black;
+    margin-bottom: 100px;
 }
 
 .mainlogo{
@@ -18,6 +20,7 @@ header{
     position: absolute;
     top: 40px;
     left: 50px;
+    box-shadow: 0 5px 10px black;
 }
 
 .beardimg{
@@ -44,4 +47,40 @@ nav{
 
 .links:hover{
     color:blue;
+}
+
+.mainImage{
+
+}
+
+.mainBox{
+    display: flex;
+    border: 5px solid black;
+    margin-bottom: 75px;
+    background-color: lightgrey;
+}
+
+.box1{
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    width: 220px;
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+
+.box2{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    width: 220px;
+    background-color: teal;
+    color: white;
+    position: relative;
+    top: 95px;
+    left: 90px;
 }
