@@ -1,0 +1,51 @@
+body{
+    background-image: url(http://getwallpapers.com/wallpaper/full/0/4/a/424222.jpg);
+    background-size: 1300px 800px;
+    background-repeat: no-repeat;
+}
+
+.time{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.greeting{
+    color: white;
+    font-size: 60px;
+}
+
+.quote{
+    color: white;
+}
+
+.weather{
+    height: 60px;
+    width: 60px;
+}
+
+.calculator{
+    height: 75px;
+    width: 50px;
+}
+
+.toDo{
+    height: 75px;
+    width: 60px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content:
+}
