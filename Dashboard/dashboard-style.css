@@ -17,6 +17,9 @@ body{
 
 .quote{
     color: white;
+    font-size: 30px;
+    position: relative;
+    left: 230px;
 }
 
 .weather{
@@ -32,6 +35,9 @@ body{
 .toDo{
     height: 75px;
     width: 60px;
+    position: relative;
+    left: 210px;
+    top: 75px;
 }
 
 .top{
@@ -47,5 +53,5 @@ body{
 
 .bottom{
     display: flex;
-    justify-content:
+    justify-content: space-around;
 }
