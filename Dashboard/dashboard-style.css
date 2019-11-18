@@ -55,3 +55,27 @@ body{
     display: flex;
     justify-content: space-around;
 }
+
+@media (max-width: 768px) {
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .quote{
+        position: absolute;
+        left: 150px;
+    }
+
+    .toDo{
+        position: relative;
+        left: 662px;
+        top: 75px;
+    }
+}
