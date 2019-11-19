@@ -80,6 +80,31 @@
    display: grid;
  }
 
+ .form-container{
+   display: flex;
+   justify-content: center;
+ }
+
+ form{
+   height: 600px;
+   width: 600px;
+   text-align: center;
+ }
+
+ h1{
+   color: white;
+   text-align: center;
+   border-bottom: 2px solid black;
+ }
+
+ .contact{
+   color: white;
+ }
+
+ .button{
+   position: relative;
+ }
+
 @media (max-width: 768px) {
    * {
      font-size: 15px;
