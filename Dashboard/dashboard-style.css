@@ -1,0 +1,22 @@
+body{
+    background-image: url(http://getwallpapers.com/wallpaper/full/0/4/a/424222.jpg);
+    background-size: 1300px 800px;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: grid;
+    
+}
+
+.time{
+    color: white;
+}
+
+.greeting{
+    color: white;
+}
+
+.quote{
+    color: white;
+}
