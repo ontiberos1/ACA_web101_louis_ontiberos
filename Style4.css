@@ -76,11 +76,23 @@
 
  .name{
    color: white;
+   font-size: 25px;
+   width: 100%;
+   height: auto;
+   position: relative;
+   left: 450px;
+   margin-bottom: 25px;
+ }
+
+ .about-me-text{
    display: flex;
    justify-content: center;
+   margin-top: 100px;
+ }
+
+ .list{
+   color: white;
    font-size: 25px;
-   width: 100%
-   height: auto;
  }
 
 @media (max-width: 768px){
