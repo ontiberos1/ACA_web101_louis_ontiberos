@@ -62,13 +62,11 @@
  }
 
  #Par{
-    color: white;
     text-align: center;
     font-size: 30px;
  }
 
  .Contact{
-     color: white;
      font-size: 25px;
      text-align: center;
      margin: 3% auto;
@@ -83,6 +81,12 @@
    color: gold;
  }
 
+ .container{
+   background-color: white;
+   width: 600px;
+   position: relative;
+   left: 350px;
+ }
  @media (max-width: 768px){
   nav {
    font-size: 15px;
