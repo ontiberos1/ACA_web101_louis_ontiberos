@@ -76,6 +76,7 @@
    display: flex;
    justify-content: center;
    margin-top: 100px;
+   color: #C0C0C0;
  }
 
  .list{
@@ -91,8 +92,14 @@
  }
 
  .title{
-   color: white;
-   text-align: center;
+   color: silver;
+   position: relative;
+   left: 480px;
+   font-size: 35px;
+ }
+
+ .container{
+   margin-top: 50px;
  }
 
 @media (max-width: 768px){
