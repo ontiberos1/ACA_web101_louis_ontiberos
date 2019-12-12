@@ -87,6 +87,15 @@
    position: relative;
    left: 350px;
  }
+
+ address{
+   color: white;
+ }
+
+ .methods{
+   color: white;
+   font-size: 25px;
+ }
  @media (max-width: 768px){
   nav {
    font-size: 15px;
